@@ -16,14 +16,14 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imgCasillas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/casillas" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgFabregas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -40,14 +40,14 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imgIniesta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/iniesta" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imgPuyol"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -64,14 +64,14 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imgVilla"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/villa" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imgXabi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
