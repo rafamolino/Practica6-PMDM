@@ -7,8 +7,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
         }
         return true;
+    }
+
+    public void AbrirContactos(View view)
+    {
+        Intent i1 = new Intent(this, Personas.class);
+        startActivity(i1);
+    }
+
+    public void AbrirBlocDeNotas(View view)
+    {
+        Intent i2 = new Intent(this, BlocDeNotas.class);
+        startActivity(i2);
     }
 
 }
