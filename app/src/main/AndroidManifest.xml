@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Personas" android:label="@string/Personas" />
-        <activity android:name=".BlocDeNotas" android:label="@string/BlocDeNotas"></activity>
+        <activity
+            android:name=".Personas"
+            android:label="@string/Personas" />
+        <activity
+            android:name=".BlocDeNotas"
+            android:label="@string/BlocDeNotas" />
+        <activity android:name=".EditarContactos"></activity>
     </application>
 
 </manifest>

@@ -4,4 +4,9 @@
     <string name="BlocDeNotas">Bloc de Notas</string>
     <string name="llamar">Llamar</string>
     <string name="correo">Correo</string>
+    <string name="editarContacto">Editar Contacto</string>
+    <string name="txtSeleccionar">Seleccionar contacto a editar</string>
+    <string name="txtTelefono">Teléfono</string>
+    <string name="txtCorreo">Correo Electrónico</string>
+    <string name="btnEditar">Editar</string>
 </resources>
