@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="5dp"
-    tools:context=".Edicion">
-
+    tools:context=".EditarContactos">
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -18,7 +17,6 @@
         android:text="@string/txtSeleccionar"
         android:textSize="14sp"
         android:textStyle="bold" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,7 +40,6 @@
             android:onClick="editPuyol"
             app:srcCompat="@drawable/puyol" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,7 +63,6 @@
             android:onClick="editVilla"
             app:srcCompat="@drawable/villa" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,7 +87,6 @@
             android:onClick="editXabiAlonso"
             app:srcCompat="@drawable/xabialonso" />
     </LinearLayout>
-
     <EditText
         android:id="@+id/txtTelefono"
         android:layout_width="match_parent"

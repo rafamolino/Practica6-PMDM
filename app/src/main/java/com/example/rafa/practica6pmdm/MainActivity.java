@@ -11,8 +11,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent i2 = new Intent(this, BlocDeNotas.class);
                 startActivity(i2);
                 break;
-
-
         }
         return true;
     }
@@ -50,5 +46,4 @@ public class MainActivity extends AppCompatActivity {
         Intent i2 = new Intent(this, BlocDeNotas.class);
         startActivity(i2);
     }
-
 }

@@ -102,7 +102,6 @@ public class Personas extends AppCompatActivity {
                 return false;
             }
         });
-
     }
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
@@ -157,14 +156,9 @@ public class Personas extends AppCompatActivity {
                 startActivity(emailIntent);
             }
             break;
-
-
-
     }
         return super.onContextItemSelected(item);
-
     }
-
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.editarContacto:
@@ -175,6 +169,4 @@ public class Personas extends AppCompatActivity {
         }
         return true;
     }
-
-
 }

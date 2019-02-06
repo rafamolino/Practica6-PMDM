@@ -40,11 +40,7 @@ public class BlocDeNotas extends AppCompatActivity {
 
                 editor.commit();
                 break;
-
-
-
         }
         return true;
     }
-
 }
