@@ -27,19 +27,19 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imgCasillas"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona1"
+            android:onClick="editCasillas"
             app:srcCompat="@drawable/casillas" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgPuyol"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona2"
+            android:onClick="editPuyol"
             app:srcCompat="@drawable/puyol" />
     </LinearLayout>
 
@@ -51,19 +51,19 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imgFabregas"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona3"
+            android:onClick="editFabregas"
             app:srcCompat="@drawable/fabregas" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imgVilla"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona4"
+            android:onClick="editVilla"
             app:srcCompat="@drawable/villa" />
     </LinearLayout>
 
@@ -76,19 +76,19 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imgIniesta"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona5"
+            android:onClick="editIniesta"
             app:srcCompat="@drawable/iniesta" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imgXabi"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:onClick="clickPersona6"
+            android:onClick="editXabiAlonso"
             app:srcCompat="@drawable/xabialonso" />
     </LinearLayout>
 

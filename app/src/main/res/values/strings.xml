@@ -9,4 +9,7 @@
     <string name="txtTelefono">Teléfono</string>
     <string name="txtCorreo">Correo Electrónico</string>
     <string name="btnEditar">Editar</string>
+    <string name="errorTelefono">Este contacto no tiene ningún número de teléfono</string>
+    <string name="errorCorreo">Este contacto no tiene ningún correo electrónico</string>
+    <string name="edicionContactos">Contacto editado correctamente</string>
 </resources>
