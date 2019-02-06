@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica6PMDM</string>
+    <string name="Personas">People</string>
+    <string name="BlocDeNotas">NotePad</string>
+    <string name="llamar">Call</string>
+    <string name="correo">E-mail</string>
+    <string name="editarContacto">Edit Contacts</string>
+    <string name="txtSeleccionar">Chose a contact to edit</string>
+    <string name="txtTelefono">Telephone</string>
+    <string name="txtCorreo">E-mail</string>
+    <string name="btnEditar">Edit</string>
+    <string name="errorTelefono">This contact don\'t have a telephone number</string>
+    <string name="errorCorreo">This contact don\'t have a E-mail</string>
+    <string name="edicionContactos">"The contact has been edited successfully "</string>
+</resources>
